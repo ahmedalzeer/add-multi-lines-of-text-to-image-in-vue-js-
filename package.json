@@ -1,0 +1,34 @@
+{
+  "name": "add-multi-text-to-img",
+  "version": "1.0.0",
+  "description": "A Vue component for adding multi-lines of text to an image.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name editor src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedalzeer/add-multi-lines-of-text-to-image-in-vue-js-.git"
+  },
+  "private": false,
+  "keywords": [
+    "vue",
+    "component",
+    "image",
+    "text",
+    "editor",
+    "multi"
+  ],
+  "author": "ahmed alzeer",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmedalzeer/add-multi-lines-of-text-to-image-in-vue-js-/issues"
+  },
+  "homepage": "https://github.com/ahmedalzeer/add-multi-lines-of-text-to-image-in-vue-js-#readme"
+}
