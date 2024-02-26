@@ -123,7 +123,7 @@ export default {
       this.textLines[index].visible = !this.textLines[index].visible;
     },
     saveData() {
-      this.$emit('textLinesSaved', this.textLines);
+      this.$emit('textLinesSaved', {this.textLines, this.backgroundImage});
     },
   }
 };
