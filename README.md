@@ -32,7 +32,7 @@ export default {
     },
     methods: {
         handleTextLinesSaved(textLines) {
-            console.log('Received text lines:', textLines);
+            console.log('Received text lines and background image :', data);
         },
     }
 };
