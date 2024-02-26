@@ -72,12 +72,14 @@ export default {
   data() {
     return {
       backgroundImage: null,
+      backgroundImageFile: null,
       textLines: [],
     };
   },
   methods: {
     handleImageUpload(event) {
       this.backgroundImage = URL.createObjectURL(event.target.files[0]);
+      this.backgroundImageFile = event.target.files[0];
       this.updatePreview();
     },
     updatePreview() {
@@ -123,7 +125,7 @@ export default {
       this.textLines[index].visible = !this.textLines[index].visible;
     },
     saveData() {
-      this.$emit('textLinesSaved', {'textLines':this.textLines, 'backgroundImage':this.backgroundImage});
+      this.$emit('textLinesSaved', {'textLines':this.textLines, 'backgroundImage':this.backgroundImageFile});
     },
   }
 };
